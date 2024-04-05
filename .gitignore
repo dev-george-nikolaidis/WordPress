@@ -1,0 +1,49 @@
+# Ignore sensitive files
+wp-config.php
+/.htaccess
+/wp-content/debug.log
+
+# Ignore specific WordPress directories
+/wp-content/uploads/
+/wp-content/upgrade/
+/wp-content/backups/
+/wp-content/cache/
+/wp-content/mu-plugins/
+
+# Ignore node modules and build files
+/node_modules/
+/build/
+/dist/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore common config files
+/sitemap.xml
+/sitemap.xml.gz
+/google*.html
+
+# Ignore all themes and plugins except your custom ones (optional)
+# /wp-content/themes/*
+# !/wp-content/themes/my-custom-theme/
+# /wp-content/plugins/*
+# !/wp-content/plugins/my-custom-plugin/
+
+# Ignore WordPress core files
+# It's generally a good idea to exclude all WordPress core files and directories,
+# since these can be easily restored using the official WordPress repository.
+/wp-admin/
+/wp-includes/
+/index.php
+/xmlrpc.php
+/license.txt
+/readme.html
+/wp-blog-header.php
+/wp-cron.php
+/wp-load.php
+/wp-login.php
+/wp-mail.php
+/wp-settings.php
+/wp-signup.php
+/wp-trackback.php
