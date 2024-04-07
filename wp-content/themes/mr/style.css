@@ -1,6 +1,6 @@
 /*
-Theme Name: Eternal Gems
-Theme URI: https://wordpress.org/themes/eternal-gems
+Theme Name: mr
+Theme URI: https://wordpress.org/themes/mr
 Author: Dev Geo Nik
 Author URI: https://wordpress.org/
 Description: Built on a solidly designed foundation.
@@ -10,6 +10,15 @@ Requires PHP: 5.6
 Version: 1.6
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Text Domain: eternalgems
+Text Domain: mr
 
 */
+
+h1 {
+	color: blue;
+}
+
+p {
+	font-size: 2rem;
+	color: plum;
+}

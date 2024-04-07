@@ -4,6 +4,9 @@ declare(strict_types=1);
 
 
 get_header();
+echo "I come with ?";
+
+
 
 
 get_template_part('inc/content');

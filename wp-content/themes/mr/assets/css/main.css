@@ -1,0 +1,11 @@
+h1 {
+	color: blueviolet;
+}
+
+.top-menu {
+	list-style-type: none;
+	display: flex;
+	gap: 2rem;
+	justify-content: flex-end;
+	margin-right: 2rem;
+}
