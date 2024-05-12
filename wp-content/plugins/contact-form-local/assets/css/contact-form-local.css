@@ -1,0 +1,25 @@
+body {
+	/* background-color: #4444 !important; */
+}
+
+form {
+	/* background-color: red !important; */
+}
+
+p {
+	color: blue !important;
+}
+
+.form-wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.form-control {
+	margin-bottom: 0.4rem;
+}
+
+.btn-form {
+	display: block;
+}

@@ -12,6 +12,7 @@
 
 <?php   get_template_part('inc/form-enquiry'); ?>
 
+<?php echo do_shortcode('[contact-form-local]'); ?>
 
 <?php the_content();?>
 
